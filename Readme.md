@@ -59,9 +59,10 @@ loadkeys dvorak-programmer
 ```
 
 ## To Do 
-- [ ] use nixos-rebuild to make an iso containing the files
-- [ ] customise the iso with ZFS support and these files
-- [ ] find the location of `automated_install.sh` in the built iso.
+- [x] use nixos-rebuild to make an iso containing the files
+- [x] customise the iso with ZFS support and these files
+- [x] find the location of `automated_install.sh` in the built iso.
+- [ ] update Readme :-P
 
 ## Resources I used
 I used the following resources:  
