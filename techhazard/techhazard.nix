@@ -5,8 +5,8 @@
 
 {
   imports =
-    [ ./installation-cd-base.nix
-      ./techhazard/programmer-dvorak.nix
+    [
+      ./programmer-dvorak.nix
     ];
 
     # add zfs support to the live environment
