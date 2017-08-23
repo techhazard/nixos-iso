@@ -1,0 +1,7 @@
+---
+dist: xenial
+sudo: true
+before_install:
+        - wget https://releases.hashicorp.com/vagrant/1.9.7/vagrant_1.9.7_x86_64.deb
+        - sudo dpkg -i vagrant*.deb
+        - sudo apt-get -f install -y
