@@ -4,7 +4,7 @@ set -e
 which vagrant >/dev/null
 which git     >/dev/null
 
-git clone https://github.com/nixos/nixpkgs nixpkgs --depth 1 || true
+git clone https://github.com/nixos/nixpkgs nixpkgs --depth 1 || (cd nixpkgs; git pull -f; cd ..)
 vagrant up || true
 
 cd nixpkgs/nixos/modules/installer/cd-dvd && ln -sf ../../../../../techhazard && cd -
