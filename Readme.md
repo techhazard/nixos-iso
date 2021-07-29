@@ -1,5 +1,12 @@
 # NixOS with ZFS on LUKS
 
+
+### This repository is no longer maintained, but feel free to fork and improve
+This was made before native encryption in ZFS existed (pre OpenZFS 2.0), and last updated in August of 2017.
+Feel free to fork and improve :)
+
+
+
 After some effort (and asking for help on the nix-dev mailing list) I 
 installed ZFS on an encrypted partition. The relevant configuration is
 below.
